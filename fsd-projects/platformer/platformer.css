@@ -3,7 +3,7 @@ body {
 }
 
 canvas {
-  background-image: url("platformbg.png");
+  background-color: pink;
   margin: 20px;
 }
 
