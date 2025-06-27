@@ -31,8 +31,8 @@ var init = function (window) {
         }
         // TODO 3 : Call the drawCircle() function
         // TODO 7 : Use a loop to create multiple circles
-        for (var i = 0; i < 25; i++){
-            drawCircle(100000);
+        for (var i = 0; i < 600; i++){
+            drawCircle();
         }
 
         ///////////////////
@@ -74,9 +74,10 @@ var init = function (window) {
             if ( circle.y < 0 ) {
                 circle.y = canvas.height;
             }
-            if ( circle.y > 0 ) {
-                circle.y < canvas.height;
+            if ( circle.y > canvas.height ) {
+                circle.y = 0;
             }
+
             // YOUR TODO 6 CODE ENDS HERE //////////////////////////
         }
         
